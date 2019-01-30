@@ -4,21 +4,18 @@
   width: 100%;
 }
 
-.nav {
-  align-items: center;
-}
-
-.nav-item {
-  margin-left: 5px;
-  margin-right: 5px;
-}
-
 .nav-link {
   font-family: 'Roboto';
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 6px;
   color: white;
+}
+
+.nav-link:hover {
+  color: white;
+  outline: 3px solid white;
+  outline-offset: -5px;
 }
 
 .main {
@@ -85,7 +82,7 @@
 }
 
 .delay-2 {
-  animation-delay: 1.6s;
+  animation-delay: 1.8s;
 }
 
 .scroll-button {
@@ -105,36 +102,9 @@
   filter: invert(1);
 }
 
-.fade-in {
-	-webkit-animation: fade-in 1.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: fade-in 1.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-}
-
-
-@-webkit-keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-
-
-
-
 .pulsate-bck {
-	-webkit-animation: pulsate-bck 0.5s ease-in-out infinite both;
-	        animation: pulsate-bck 0.5s ease-in-out infinite both;
+	-webkit-animation: pulsate-bck 2s ease-in-out infinite both;
+	        animation: pulsate-bck 2s ease-in-out infinite both;
 }
 
 @-webkit-keyframes pulsate-bck {
@@ -166,30 +136,18 @@
   }
 }
 
-
-
-.slide-top {
-	-webkit-animation: slide-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;
-	        animation: slide-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;
+.button-anim-queue {
+  transition:
+    -webkit-animation: fade-in-fwd 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
+	        animation: fade-in-fwd 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
+    -webkit-animation: pulsate-bck 0.5s ease-in-out infinite both;
+        	.animation: pulsate-bck 0.5s ease-in-out infinite both;
 }
 
-@-webkit-keyframes slide-top {
-  0% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-  100% {
-    -webkit-transform: translateY(-100px);
-            transform: translateY(-100px);
-  }
-}
-@keyframes slide-top {
-  0% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-  100% {
-    -webkit-transform: translateY(-100px);
-            transform: translateY(-100px);
-  }
+
+.spotify-block {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 50px auto 50px auto;
 }
