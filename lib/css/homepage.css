@@ -101,9 +101,17 @@ span {
 }
 
 .fa-arrow-down {
+  color: white;
   font-size: 20px;
   margin: auto;
-  filter: invert(1);
+}
+
+.scroll {
+  text-decoration: none;
+}
+
+.scroll:hover {
+  text-decoration: none;
 }
 
 .pulsate-bck {
@@ -146,8 +154,7 @@ span {
     -webkit-animation: pulsate-bck 0.7s ease-in-out infinite both;
         	  animation: pulsate-bck 0.7s ease-in-out infinite both;
 
-            transition:
-            all: 1.2s;
+            transition: all 1.2s;
 }
 
 
