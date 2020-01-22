@@ -18,6 +18,10 @@
   outline-offset: -5px;
 }
 
+span {
+  letter-spacing: 0px;
+}
+
 .main {
   /* Inherits display block from bootstrap container */
   margin-top: 13%;
