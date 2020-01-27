@@ -4,21 +4,36 @@
   width: 100%;
 }
 
+.navbar-pos {
+  justify-content: center;
+}
+
 .nav-link {
   font-family: 'Roboto';
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 6px;
-  color: white;
+  /* color: white; */
 }
 
+/*
 .nav-link:hover {
   color: white;
   outline: 3px solid white;
   outline-offset: -5px;
 }
+*/
 
-span {
+.nav-decor {
+  padding: 0.1rem 1.5rem 0.1rem 1.5rem;
+}
+
+.nav-decor:hover {
+  outline: 3px solid white;
+  outline-offset: -5px;
+}
+
+.nav-span {
   letter-spacing: 0px;
 }
 
