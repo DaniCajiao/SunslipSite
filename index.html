@@ -3,7 +3,7 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
@@ -33,7 +33,7 @@
     <nav class="navbar sticky-top justify-content-center">
       <ul class="nav">
         <li class="nav-item">
-          <a class="nav-link" href="#">Hom<span>e</span></a>
+          <a class="nav-link" href="#home">Hom<span>e</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link scroll" href="#music">Musi<span>c</span></a>
@@ -65,19 +65,21 @@
     </div>
 
     <a class="scroll" href="#music">
-      <div class="scroll-button button-anim-queue delay-2">
-        <i class="fas fa-arrow-down"></i>
+      <div class="button-anim-queue delay-2">
+        <div class="fade-in-fwd delay-2 scroll-button">
+          <i class="fade-in-fwd delay-2 fas fa-arrow-down"></i>
+        </div>
       </div>
     </a>
     
 
+    <div id="music">TARGET
+      <p class="mus">MUSIC</p>
+      <iframe class="spotify-block" src="https://open.spotify.com/follow/1/?uri=spotify:artist:3nq3BwEmnZe2VmHEtCGmPx?si=wFoawz42R5-gHl4gCF7pPQ&size=detail&theme=dark" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
+      <iframe class="spotify-block" src="https://open.spotify.com/embed/album/5tuZq3x5UXNTOSjFeXgA4O" width="500" height="230" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </div>
 
-    <iframe class="spotify-block" src="https://open.spotify.com/follow/1/?uri=spotify:artist:3nq3BwEmnZe2VmHEtCGmPx?si=wFoawz42R5-gHl4gCF7pPQ&size=detail&theme=dark" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
-
-    <iframe class="spotify-block" src="https://open.spotify.com/embed/album/5tuZq3x5UXNTOSjFeXgA4O" width="500" height="230" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-
-
-    <div id="music">TARGET</div>
+    
 
 
     <!-- Optional JavaScript -->

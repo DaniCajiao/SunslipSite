@@ -25,7 +25,7 @@ span {
 .main {
   /* Inherits display block from bootstrap container */
   margin-top: 13%;
-  margin-bottom: 13%;
+  margin-bottom: 5%;
 }
 
 .main-logo {
@@ -40,7 +40,6 @@ span {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  /* margin-bottom: 0; */
   width: 50%;
   font-family: 'Raleway';
   font-style: italic;
@@ -155,6 +154,7 @@ span {
         	  animation: pulsate-bck 0.7s ease-in-out infinite both;
 
             transition: all 1.2s;
+    margin-bottom: 25%;
 }
 
 
@@ -163,4 +163,19 @@ span {
   display: flex;
   align-items: center;
   margin: 50px auto 50px auto;
+}
+
+.mus {
+  display: block;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  font-family: 'Raleway';
+  font-style: bold;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  letter-spacing: 3px;
+  position: relative;
 }
