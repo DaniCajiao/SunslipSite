@@ -1,4 +1,8 @@
 this is danis text 1
 this is mayos text 1
+<<<<<<< HEAD
 
 this is chris text 2
+=======
+this is danis text 2
+>>>>>>> origin/master
