@@ -214,22 +214,17 @@ body {
 }
 
 .shows {
-  
   margin-top: 25%;
   margin-bottom: 25%;
 }
 
 .shows-text {
   display: block;
-  margin-top: 10%;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
   font-family: 'Raleway';
-  font-style: bold;
+  font-style: normal;
   text-align: center;
   color: white;
-  font-size: 40px;
+  font-size: 20px;
   letter-spacing: 3px;
   position: relative;
 }
