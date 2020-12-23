@@ -1,3 +1,7 @@
+body {
+  background-color: darkslategrey;
+}
+
 .background {
   position: absolute;
   /* filter: opacity(0.2); */
