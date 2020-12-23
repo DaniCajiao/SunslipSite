@@ -1,3 +1,7 @@
+body {
+  background-color: darkslategrey;
+}
+
 .background {
   position: absolute;
   /* filter: opacity(0.2); */
@@ -198,6 +202,7 @@
   font-size: 20px;
 }
 
+<<<<<<< HEAD
 .spotify-follow {
   position: relative;
   display: inline;
@@ -205,6 +210,15 @@
   margin-left: 20px;
 }
 /* Music section end */
+=======
+#picture-break {
+  position: relative;
+  margin: 25px auto;
+  width: 95%;
+  height: 20%;
+  overflow: hidden;
+}
+>>>>>>> fbfd9692894aad052ae60e7274c77c91d8435d08
 
 .shows {
   
