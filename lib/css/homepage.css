@@ -202,7 +202,6 @@ body {
   font-size: 20px;
 }
 
-<<<<<<< HEAD
 .spotify-follow {
   position: relative;
   display: inline;
@@ -210,7 +209,7 @@ body {
   margin-left: 20px;
 }
 /* Music section end */
-=======
+
 #picture-break {
   position: relative;
   margin: 25px auto;
@@ -218,7 +217,6 @@ body {
   height: 20%;
   overflow: hidden;
 }
->>>>>>> fbfd9692894aad052ae60e7274c77c91d8435d08
 
 .shows {
   
