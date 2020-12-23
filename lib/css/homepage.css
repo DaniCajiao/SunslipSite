@@ -173,35 +173,7 @@
     /* margin-bottom: 25%; */
 }
 
-
-.spotify-player-pools {
-  position: relative;
-  display: inline;
-  align-items: center;
-  margin: 50px 50px 50px 50px;
-}
-
-.spotify-player-reprise {
-  position: relative;
-  display: inline;
-  align-items: center;
-  margin: 50px 50px 50px 50px;  
-}
-
-.spotify-follow {
-  position: relative;
-  display: inline;
-  align-items: center;
-  margin-left: 20px;
-}
-
-.apple-music {
-  position: relative;
-  display: inline;
-  align-items: center;
-  margin-left: 20px;  
-}
-
+/* Music section start */
 .music-title {
   display: block;
   margin-top: 250px;
@@ -225,6 +197,14 @@
   color: white;
   font-size: 20px;
 }
+
+.spotify-follow {
+  position: relative;
+  display: inline;
+  align-items: center;
+  margin-left: 20px;
+}
+/* Music section end */
 
 .shows {
   
