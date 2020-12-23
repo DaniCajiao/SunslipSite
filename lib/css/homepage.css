@@ -226,6 +226,14 @@
   font-size: 20px;
 }
 
+#picture-break {
+  position: relative;
+  margin: 25px auto;
+  width: 95%;
+  height: 20%;
+  overflow: hidden;
+}
+
 .shows {
   
   margin-top: 25%;
