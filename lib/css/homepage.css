@@ -239,6 +239,11 @@ body {
   position: relative;
 }
 
+.media-art {
+  margin: 15px;
+  width: 100%;
+}
+
 .icons {
   text-align: center;
 }
