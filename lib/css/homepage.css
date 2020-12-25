@@ -247,6 +247,17 @@ body {
   position: relative;
 }
 
+.merch-item {
+  width: 100%;
+}
+
+.merch-desc {
+  font-family: 'Raleway';
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+}
+
 .media-art {
   margin: 15px;
   width: 100%;
