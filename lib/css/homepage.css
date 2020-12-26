@@ -196,6 +196,12 @@ body {
   letter-spacing: 0.5rem;
 }
 
+@media screen and (max-width: 425px) {
+  .section-header {
+    font-size: 2rem;
+  }
+}
+
 .row {
   margin: 5% 5%;
 }
@@ -212,6 +218,16 @@ body {
   font-family: 'Raleway';
   color: white;
   font-size: 2em;
+}
+
+@media screen and (max-width: 425px) {
+  .music-title {
+    font-size: 2rem;
+  }
+  
+  .music-description {
+    font-size: 1rem;
+  }
 }
 
 .music-info {
