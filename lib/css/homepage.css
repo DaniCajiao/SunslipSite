@@ -8,14 +8,6 @@ body {
   width: 100%;
 }
 
-#music {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  padding: 5% 0;
-  background: linear-gradient(#00000000, black);
-}
-
 .navbar-pos {
   justify-content: center;
 }
@@ -196,6 +188,10 @@ body {
   letter-spacing: 0.5rem;
 }
 
+.section-pad {
+  padding-bottom: 10%;
+}
+
 @media screen and (max-width: 425px) {
   .section-header {
     font-size: 2rem;
@@ -204,6 +200,13 @@ body {
 
 .row {
   margin: 5% 5%;
+}
+
+#music {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#00000000, black);
 }
 
 .music-title {
