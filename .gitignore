@@ -1,0 +1,2 @@
+#  Ignores macOS storage tracking files
+.DS_STORE
