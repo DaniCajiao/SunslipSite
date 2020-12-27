@@ -295,10 +295,7 @@ body {
 .fa {
   padding: 10px;
   text-align: center;
-  font-size: 50px;
-  margin-bottom: 30px;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin: 30px 5px;
   text-decoration: none;
 }
 
@@ -307,26 +304,21 @@ body {
 }
 
 .fa-instagram {
-  background: #bd0e60;
   color: white;
 }
 
 .fa-facebook {
-  background: #3B5998;
   color: white;
 }
 
 .fa-twitter {
-  background: #55ACEE;
   color: white;
 }
 
 .fa-spotify {
-  background: black;
-  color: rgb(0, 196, 0);
+  color: white;
 }
 
 .fa-apple {
-  background: rgb(231, 59, 59);
-  color: rgb(255, 255, 255);
+  color: white;
 }
