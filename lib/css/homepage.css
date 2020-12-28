@@ -183,20 +183,26 @@ body {
     /* margin-bottom: 25%; */
 }
 
+section:not(:first) {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
 .section-header {
   display: block;
   margin: 25px auto;
+  color: white;
   font-family: 'Raleway';
   font-style: bold;
-  text-align: center;
-  color: white;
   font-size: 4em;
+  text-align: center;
   letter-spacing: 0.5rem;
 }
 
-.section-pad {
+/* .section-pad {
   padding-bottom: 10%;
-}
+} */
 
 @media screen and (max-width: 425px) {
   .section-header {
